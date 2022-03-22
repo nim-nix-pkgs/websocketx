@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-websocketx-master.flake = false;
+  inputs.src-websocketx-master.ref   = "refs/heads/master";
   inputs.src-websocketx-master.owner = "xflywind";
-  inputs.src-websocketx-master.ref   = "master";
   inputs.src-websocketx-master.repo  = "websocketx";
   inputs.src-websocketx-master.type  = "github";
   
